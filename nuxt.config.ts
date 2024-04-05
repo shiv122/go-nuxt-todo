@@ -10,6 +10,6 @@ export default defineNuxtConfig({
     '~/plugins/axios'
   ],
   build: {
-    transpile: ['vue-sonner']
+    transpile: ['vue-sonner','pinia-plugin-persistedstate']
   },
 })
